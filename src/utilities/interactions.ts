@@ -1,0 +1,68 @@
+export const interactionUtils = [
+  {
+    classPrefix: "a-",
+    classLink: "appearance",
+    utilityClasses: [
+      { classSuffix: "none", classValues: ["appearance: none;"] },
+      { classSuffix: "auto", classValues: ["appearance: auto;"] },
+    ],
+  },
+  {
+    classPrefix: "c-",
+    classLink: "cursor",
+    utilityClasses: [
+      { classSuffix: "auto", classValues: ["cursor: auto"] },
+      { classSuffix: "cr", classValues: ["cursor: col-resize"] },
+      { classSuffix: "ch", classValues: ["cursor: crosshair"] },
+      { classSuffix: "d", classValues: ["cursor: default"] },
+      { classSuffix: "h", classValues: ["cursor: help"] },
+      { classSuffix: "m", classValues: ["cursor: move"] },
+      { classSuffix: "na", classValues: ["cursor: not-allowed"] },
+      { classSuffix: "ner", classValues: ["cursor: ne-resize"] },
+      { classSuffix: "neswr", classValues: ["cursor: nesw-resize"] },
+      { classSuffix: "none", classValues: ["cursor: none"] },
+      { classSuffix: "nr", classValues: ["cursor: n-resize"] },
+      { classSuffix: "nwr", classValues: ["cursor: nw-resize"] },
+      { classSuffix: "nwser", classValues: ["cursor: nwse-resize"] },
+      { classSuffix: "p", classValues: ["cursor: pointer"] },
+      { classSuffix: "pr", classValues: ["cursor: progress"] },
+      { classSuffix: "rs", classValues: ["cursor: row-resize"] },
+      { classSuffix: "ser", classValues: ["cursor: se-resize"] },
+      { classSuffix: "sr", classValues: ["cursor: s-resize"] },
+      { classSuffix: "swr", classValues: ["cursor: sw-resize"] },
+      { classSuffix: "t", classValues: ["cursor: text"] },
+      { classSuffix: "w", classValues: ["cursor: wait"] },
+      { classSuffix: "wr", classValues: ["cursor: w-resize"] },
+      { classSuffix: "zi", classValues: ["cursor: zoom-in"] },
+      { classSuffix: "zo", classValues: ["cursor: zoom-out"] },
+    ],
+  },
+  {
+    classPrefix: "pe-",
+    classLink: "pointer-events",
+    utilityClasses: [
+      { classSuffix: "auto", classValues: ["pointer-events: auto;"] },
+      { classSuffix: "none", classValues: ["pointer-events: none;"] },
+    ],
+  },
+  {
+    classPrefix: "r-",
+    classLink: "resize",
+    utilityClasses: [
+      { classSuffix: "b", classValues: ["resize: both;"] },
+      { classSuffix: "h", classValues: ["resize: horizontal;"] },
+      { classSuffix: "none", classValues: ["resize: none;"] },
+      { classSuffix: "v", classValues: ["resize: vertical;"] },
+    ],
+  },
+  {
+    classPrefix: "us-",
+    classLink: "user-select",
+    utilityClasses: [
+      { classSuffix: "all", classValues: ["user-select: all;"] },
+      { classSuffix: "auto", classValues: ["user-select: auto;"] },
+      { classSuffix: "none", classValues: ["user-select: none;"] },
+      { classSuffix: "text", classValues: ["user-select: text;"] },
+    ],
+  },
+];
