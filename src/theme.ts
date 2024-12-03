@@ -36,15 +36,15 @@ export const generateColorClasses = (cssProperty: string) => {
 
     return [
       ...lightShades.map((shade, index) => ({
-        classSuffix: `l-${color.colorName}-${6 - index}`,
+        classSuffix: `-l-${color.colorName}-${6 - index}`,
         classValues: [`${cssProperty}: ${shade};`],
       })),
       {
-        classSuffix: `${color.colorName}`,
+        classSuffix: `-${color.colorName}`,
         classValues: [`${cssProperty}: ${baseColor};`],
       },
       ...darkShades.map((shade, index) => ({
-        classSuffix: `d-${color.colorName}-${index + 1}`,
+        classSuffix: `-d-${color.colorName}-${index + 1}`,
         classValues: [`${cssProperty}: ${shade};`],
       })),
     ];
