@@ -6,7 +6,7 @@ import { boxModelUtils } from "@yummacss/utilities/box-model";
 import { flexboxUtils } from "@yummacss/utilities/flexbox";
 import { fxUtils } from "@yummacss/utilities/fx";
 import { gridUtils } from "@yummacss/utilities/grid";
-import { interactionUtils } from "@yummacss/utilities/interactions";
+import { interactivityUtils } from "@/utilities/interactivity";
 import { layoutUtils } from "@yummacss/utilities/layout";
 import { outlineUtils } from "@yummacss/utilities/outlines";
 import { tableUtils } from "@yummacss/utilities/tables";
@@ -32,7 +32,7 @@ export const allUtilities: AllUtilities = [
   ...flexboxUtils,
   ...fxUtils,
   ...gridUtils,
-  ...interactionUtils,
+  ...interactivityUtils,
   ...layoutUtils,
   ...outlineUtils,
   ...tableUtils,

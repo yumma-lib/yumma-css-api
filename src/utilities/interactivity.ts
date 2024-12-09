@@ -1,4 +1,4 @@
-export const interactionUtils = [
+export const interactivityUtils = [
   {
     classPrefix: "a-",
     classLink: "appearance",
