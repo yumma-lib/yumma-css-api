@@ -1,6 +1,6 @@
 {
   "name": "yumma-css-api",
-  "description": "Yumma CSS utility-first API",
+  "description": "Yumma CSS API",
   "version": "0.0.1",
   "private": true,
   "scripts": {
