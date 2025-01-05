@@ -1,6 +1,6 @@
 {
   "name": "yumma-css-api",
-  "description": "Yumma CSS API",
+  "description": "Provides an easy way to access all the fundamental Yumma CSS utility classes.",
   "version": "0.0.1",
   "private": true,
   "scripts": {
